@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shared_pref">
         <activity
+            android:name=".musicPlayer.MusicPlayer"
+            android:exported="false" />
+        <activity
             android:name=".BMI.BMI_activity"
             android:exported="false" />
         <activity
