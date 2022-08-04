@@ -7,6 +7,7 @@ import android.widget.Button
 import com.example.shared_pref.BMI.BMI_activity
 import com.example.shared_pref.musicPlayer.MusicPlayer
 import com.example.shared_pref.shared_pref.shared_pref_activity
+import com.example.shared_pref.videoPlayer.VideoPlayer
 
 class MainActivity : AppCompatActivity() {
 
@@ -24,8 +25,12 @@ class MainActivity : AppCompatActivity() {
 //            val intent = Intent(this, BMI_activity::class.java)
 //            startActivity(intent)
 //        }
+//        btnOpenApp.setOnClickListener {
+//            val intent = Intent(this, MusicPlayer::class.java)
+//            startActivity(intent)
+//        }
         btnOpenApp.setOnClickListener {
-            val intent = Intent(this, MusicPlayer::class.java)
+            val intent = Intent(this, VideoPlayer::class.java)
             startActivity(intent)
         }
     }
